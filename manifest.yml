@@ -1,0 +1,8 @@
+applications:
+- name: hello
+  instances: 1
+  memory: 512M
+  disk_quota: 512M
+  random-route: true
+  stack: cflinuxfs2
+  buildpack: https://github.com/cloudfoundry/python-buildpack.git
